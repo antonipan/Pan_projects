@@ -74,6 +74,7 @@ void ParallelMatrixMul(int[,] a, int[,] b, int startPos, int endPos)
             {
                 threadMulRes[i, j] += a[i, k] * b[k, j];
             }
+            Console.Write(string.Join(",", threadMulRes[i,j]));
         }
     }
 }
