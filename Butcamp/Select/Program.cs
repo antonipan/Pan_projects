@@ -34,7 +34,6 @@ string [] CheckArray (string [] array)
         }
     }
 
-
     return arrayOut;
 }
 
